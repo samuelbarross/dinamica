@@ -1,0 +1,18 @@
+<%- model_class = Nivel -%>
+<div class="wrapper wrapper-content animated fadeInRight">
+  <div class="ibox ">
+    <div class="ibox-title">
+      <h2>Dados</h2>
+    </div>
+    <div class="ibox-content">
+              <p>
+          <strong><%= model_class.human_attribute_name( :nome) %>:</strong>
+          <%= @nivel.nome %>
+        </p>
+              <p>
+          <strong><%= model_class.human_attribute_name( :codigo) %>:</strong>
+          <%= @nivel.codigo %>
+        </p>
+          </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  serie: one
+  volume: 1
+  ano_edicao: MyString
+
+two:
+  nome: MyString
+  serie: two
+  volume: 1
+  ano_edicao: MyString

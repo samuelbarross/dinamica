@@ -1,0 +1,22 @@
+<%- model_class = Cidade -%>
+<div class="wrapper wrapper-content animated fadeInRight">
+  <div class="ibox ">
+    <div class="ibox-title">
+      <h2>Dados</h2>
+    </div>
+    <div class="ibox-content">
+              <p>
+          <strong><%= model_class.human_attribute_name( :nome) %>:</strong>
+          <%= @cidade.nome %>
+        </p>
+              <p>
+          <strong><%= model_class.human_attribute_name( :estado) %>:</strong>
+          <%= @cidade.estado %>
+        </p>
+              <p>
+          <strong><%= model_class.human_attribute_name( :codigo_ibge) %>:</strong>
+          <%= @cidade.codigo_ibge %>
+        </p>
+          </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<%- model_class = Livro -%>
+<div class="wrapper wrapper-content animated fadeInRight">
+  <div class="ibox ">
+    <div class="ibox-title">
+      <h2>Dados</h2>
+    </div>
+    <div class="ibox-content">
+              <p>
+          <strong><%= model_class.human_attribute_name( :nome) %>:</strong>
+          <%= @livro.nome %>
+        </p>
+              <p>
+          <strong><%= model_class.human_attribute_name( :serie) %>:</strong>
+          <%= @livro.serie %>
+        </p>
+              <p>
+          <strong><%= model_class.human_attribute_name( :volume) %>:</strong>
+          <%= @livro.volume %>
+        </p>
+              <p>
+          <strong><%= model_class.human_attribute_name( :ano_edicao) %>:</strong>
+          <%= @livro.ano_edicao %>
+        </p>
+          </div>
+  </div>
+</div>

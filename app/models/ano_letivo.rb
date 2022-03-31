@@ -1,0 +1,2 @@
+class AnoLetivo < ApplicationRecord
+end

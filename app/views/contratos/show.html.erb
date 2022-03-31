@@ -1,0 +1,18 @@
+<%- model_class = Contrato -%>
+<div class="wrapper wrapper-content animated fadeInRight">
+  <div class="ibox ">
+    <div class="ibox-title">
+      <h2>Dados</h2>
+    </div>
+    <div class="ibox-content">
+              <p>
+          <strong><%= model_class.human_attribute_name( :prefeitura) %>:</strong>
+          <%= @contrato.prefeitura %>
+        </p>
+              <p>
+          <strong><%= model_class.human_attribute_name( :ano_letivo) %>:</strong>
+          <%= @contrato.ano_letivo %>
+        </p>
+          </div>
+  </div>
+</div>

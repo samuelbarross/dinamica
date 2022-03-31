@@ -1,0 +1,26 @@
+<%- model_class = Capitulo -%>
+<div class="wrapper wrapper-content animated fadeInRight">
+  <div class="ibox ">
+    <div class="ibox-title">
+      <h2>Dados</h2>
+    </div>
+    <div class="ibox-content">
+              <p>
+          <strong><%= model_class.human_attribute_name( :nome) %>:</strong>
+          <%= @capitulo.nome %>
+        </p>
+              <p>
+          <strong><%= model_class.human_attribute_name( :numero) %>:</strong>
+          <%= @capitulo.numero %>
+        </p>
+              <p>
+          <strong><%= model_class.human_attribute_name( :livro) %>:</strong>
+          <%= @capitulo.livro %>
+        </p>
+              <p>
+          <strong><%= model_class.human_attribute_name( :disciplina) %>:</strong>
+          <%= @capitulo.disciplina %>
+        </p>
+          </div>
+  </div>
+</div>

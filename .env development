@@ -1,0 +1,6 @@
+DATABASE_NAME=dinamica_development
+DATABASE_USER=postgres
+DATABASE_PASSWORD=swss
+DATABASE_HOST=db_postgres
+DATABASE_PORT=5432
+

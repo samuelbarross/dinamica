@@ -1,0 +1,18 @@
+<%- model_class = PlanejamentoPedagogico -%>
+<div class="wrapper wrapper-content animated fadeInRight">
+  <div class="ibox ">
+    <div class="ibox-title">
+      <h2>Dados</h2>
+    </div>
+    <div class="ibox-content">
+              <p>
+          <strong><%= model_class.human_attribute_name( :capitulo) %>:</strong>
+          <%= @planejamento_pedagogico.capitulo %>
+        </p>
+              <p>
+          <strong><%= model_class.human_attribute_name( :numero_semana) %>:</strong>
+          <%= @planejamento_pedagogico.numero_semana %>
+        </p>
+          </div>
+  </div>
+</div>

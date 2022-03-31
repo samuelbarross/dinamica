@@ -1,0 +1,26 @@
+<%- model_class = CoordenacaoPedagogica -%>
+<div class="wrapper wrapper-content animated fadeInRight">
+  <div class="ibox ">
+    <div class="ibox-title">
+      <h2>Dados</h2>
+    </div>
+    <div class="ibox-content">
+              <p>
+          <strong><%= model_class.human_attribute_name( :prefeitura) %>:</strong>
+          <%= @coordenacao_pedagogica.prefeitura %>
+        </p>
+              <p>
+          <strong><%= model_class.human_attribute_name( :user) %>:</strong>
+          <%= @coordenacao_pedagogica.user %>
+        </p>
+              <p>
+          <strong><%= model_class.human_attribute_name( :ano_letivo) %>:</strong>
+          <%= @coordenacao_pedagogica.ano_letivo %>
+        </p>
+              <p>
+          <strong><%= model_class.human_attribute_name( :contrato) %>:</strong>
+          <%= @coordenacao_pedagogica.contrato %>
+        </p>
+          </div>
+  </div>
+</div>

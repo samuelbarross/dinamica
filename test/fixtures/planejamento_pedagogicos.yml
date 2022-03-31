@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  capitulo: one
+  numero_semana: 1
+
+two:
+  capitulo: two
+  numero_semana: 1
